@@ -8,8 +8,8 @@ public class JokeFetcherImpl implements JokeFetcher {
 
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-    public JokeFetcherImpl(){
-        this.chuckNorrisQuotes = new ChuckNorrisQuotes();
+    public JokeFetcherImpl(ChuckNorrisQuotes chuckNorrisQuotes){
+        this.chuckNorrisQuotes = chuckNorrisQuotes;
     }
 
     @Override
